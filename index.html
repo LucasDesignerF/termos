@@ -82,15 +82,15 @@
         }
 
         .content-grid {
-            display: grid;
+            display: none; /* Oculta por padrão */
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 25px;
             margin-bottom: 50px;
-            opacity: 0;
             transition: opacity 0.3s ease;
         }
 
         .content-grid.active {
+            display: grid; /* Exibe como grid quando ativo */
             opacity: 1;
         }
 
@@ -429,7 +429,10 @@
                 // Add active class to clicked tab and corresponding content
                 tab.classList.add('active');
                 const tabId = tab.getAttribute('data-tab');
-                document.getElementById(tabId).classList.add('active');
+                const activeContent = document.getElementById(tabId);
+                if (activeContent) {
+                    activeContent.classList.add('active');
+                }
             });
         });
     </script>
