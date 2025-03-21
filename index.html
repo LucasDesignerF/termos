@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Termos e Condições da Code Projects para criação de projetos">
-    <meta name="keywords" content="termos, condições, code projects, desenvolvimento, programação">
-    <meta name="author" content="Code Projects">
+    <meta name="description" content="Termos e Condições oficiais da Code Projects para serviços de desenvolvimento de sites, bots Discord, APIs, plataformas, design e marketing.">
+    <meta name="keywords" content="termos e condições, Code Projects, desenvolvimento web, bots Discord, APIs, plataformas, design, marketing digital, serviços de tecnologia">
+    <meta name="author" content="Code Projects Team">
+    <meta name="robots" content="index, follow">
     <meta property="og:title" content="Termos e Condições - Code Projects">
-    <meta property="og:description" content="Conheça os termos e condições para criação de projetos na Code Projects">
+    <meta property="og:description" content="Leia os termos e condições detalhados para contratação de serviços da Code Projects, incluindo desenvolvimento, design e marketing.">
     <meta property="og:url" content="https://termos.redebots.shop/">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/1698/1698541.png">
+    <meta property="og:locale" content="pt_BR">
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1698/1698541.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Termos e Condições - Code Projects</title>
     <style>
         * {
@@ -21,179 +25,238 @@
 
         body {
             background-color: #1a1a1a;
-            color: #ffffff;
+            color: #e0e0e0;
             font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            padding: 40px;
+            line-height: 1.8;
+            padding: 50px;
             min-height: 100vh;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
-        h1 {
-            color: #ffffff;
+        .header {
             text-align: center;
-            margin-bottom: 40px;
-            font-size: 2.5em;
-            padding: 20px;
-            background-color: #252525;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #252525, #303030);
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .header h1 {
+            color: #ffffff;
+            font-size: 2.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
 
         .terms-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
         }
 
         .card {
-            background-color: #252525;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            background: #252525;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
             position: relative;
+            overflow: hidden;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-            background-color: #303030;
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+            background: #303030;
+        }
+
+        .card-icon {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #888888;
+            font-size: 1.2em;
         }
 
         .card-number {
             position: absolute;
-            top: 10px;
-            left: 10px;
+            top: 15px;
+            right: 15px;
             color: #888888;
-            font-size: 0.9em;
+            font-size: 1em;
+            font-weight: bold;
         }
 
         .card-content {
-            margin-top: 20px;
+            margin-top: 35px;
+            font-size: 1em;
         }
 
         .footer {
             text-align: center;
             color: #888888;
-            font-size: 0.9em;
-            padding: 20px;
-            background-color: #252525;
-            border-radius: 10px;
-            margin-top: 40px;
+            font-size: 0.95em;
+            padding: 25px;
+            background: linear-gradient(135deg, #252525, #303030);
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
             body {
-                padding: 20px;
+                padding: 25px;
             }
 
-            h1 {
-                font-size: 2em;
+            .header h1 {
+                font-size: 2.2em;
             }
 
             .terms-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 20px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Termos e Condições - Code Projects</h1>
+        <div class="header">
+            <h1><i class="fas fa-code"></i> Termos e Condições - Code Projects</h1>
+        </div>
         <div class="terms-grid">
             <div class="card">
+                <i class="fas fa-wallet card-icon"></i>
                 <span class="card-number">01</span>
-                <div class="card-content">O pagamento deve ser realizado antes do início do desenvolvimento.</div>
+                <div class="card-content">O pagamento integral ou parcial (conforme acordado) deve ser efetuado antes do início de qualquer serviço, seja desenvolvimento de sites, bots Discord, APIs, plataformas, design ou marketing.</div>
             </div>
             <div class="card">
+                <i class="fas fa-ban card-icon"></i>
                 <span class="card-number">02</span>
-                <div class="card-content">Não há reembolso após o início do projeto devido ao tempo investido.</div>
+                <div class="card-content">Não há reembolso após o início dos trabalhos devido ao investimento de tempo, recursos e expertise da Code Projects, exceto em casos de acordo prévio por escrito.</div>
             </div>
             <div class="card">
+                <i class="fas fa-edit card-icon"></i>
                 <span class="card-number">03</span>
-                <div class="card-content">O cliente terá direito a revisões durante o desenvolvimento, desde que estejam dentro do escopo acordado.</div>
+                <div class="card-content">O cliente tem direito a revisões durante o processo, desde que dentro do escopo inicialmente acordado para o serviço contratado (web, bot, API, design, etc.).</div>
             </div>
             <div class="card">
+                <i class="fas fa-exchange-alt card-icon"></i>
                 <span class="card-number">04</span>
-                <div class="card-content">Alterações no escopo do projeto podem resultar em ajustes no valor final.</div>
+                <div class="card-content">Mudanças no escopo do projeto após o início podem acarretar ajustes no prazo e/ou no valor final, a serem negociados e aprovados por ambas as partes.</div>
             </div>
             <div class="card">
+                <i class="fas fa-clock card-icon"></i>
                 <span class="card-number">05</span>
-                <div class="card-content">O prazo de entrega pode variar conforme a complexidade do projeto.</div>
+                <div class="card-content">Os prazos de entrega variam conforme a complexidade e natureza do serviço (sites, bots, APIs, plataformas, design ou marketing) e serão estipulados no contrato inicial.</div>
             </div>
             <div class="card">
+                <i class="fas fa-user-shield card-icon"></i>
                 <span class="card-number">06</span>
-                <div class="card-content">A Code Projects não se responsabiliza por problemas causados por uso indevido da dashboard.</div>
+                <div class="card-content">A Code Projects não se responsabiliza por mau uso, configuração inadequada ou alterações feitas pelo cliente em qualquer produto entregue (sites, bots, APIs, etc.).</div>
             </div>
             <div class="card">
+                <i class="fas fa-copyright card-icon"></i>
                 <span class="card-number">07</span>
-                <div class="card-content">Todos os direitos autorais do código pertencem à Code Projects, exceto quando acordado o contrário.</div>
+                <div class="card-content">Os direitos autorais do código, design ou materiais produzidos pertencem à Code Projects, salvo acordo expresso em contrário com transferência de propriedade intelectual.</div>
             </div>
             <div class="card">
+                <i class="fas fa-key card-icon"></i>
                 <span class="card-number">08</span>
-                <div class="card-content">O cliente tem direito ao uso exclusivo da dashboard após o pagamento integral.</div>
+                <div class="card-content">O cliente recebe licença de uso exclusivo do produto final após pagamento integral, sem direito a revenda ou redistribuição sem permissão.</div>
             </div>
             <div class="card">
+                <i class="fas fa-bell card-icon"></i>
                 <span class="card-number">09</span>
-                <div class="card-content">O cliente deve informar quaisquer alterações no escopo do projeto dentro de 24 horas após o início.</div>
+                <div class="card-content">Alterações no escopo devem ser comunicadas pelo cliente em até 48 horas após o início do projeto, sob pena de inviabilizar ajustes sem custos adicionais.</div>
             </div>
             <div class="card">
+                <i class="fas fa-pause card-icon"></i>
                 <span class="card-number">10</span>
-                <div class="card-content">A Code Projects reserva-se o direito de pausar o projeto caso haja atraso no pagamento.</div>
+                <div class="card-content">A Code Projects pode suspender ou cancelar o projeto em caso de atraso no pagamento ou falta de fornecimento de informações essenciais pelo cliente.</div>
             </div>
             <div class="card">
+                <i class="fas fa-info-circle card-icon"></i>
                 <span class="card-number">11</span>
-                <div class="card-content">O cliente deve fornecer todas as informações necessárias para o desenvolvimento dentro do prazo acordado.</div>
+                <div class="card-content">O cliente é responsável por fornecer todos os dados, acessos e materiais necessários ao desenvolvimento no prazo estipulado, sob risco de atrasos no projeto.</div>
             </div>
             <div class="card">
+                <i class="fas fa-plug card-icon"></i>
                 <span class="card-number">12</span>
-                <div class="card-content">A Code Projects não é responsável por falhas externas, como problemas no Discord ou internet.</div>
+                <div class="card-content">A Code Projects não se responsabiliza por falhas de terceiros (ex.: Discord, provedores de internet, hospedagem) que afetem o funcionamento dos serviços entregues.</div>
             </div>
             <div class="card">
+                <i class="fas fa-tools card-icon"></i>
                 <span class="card-number">13</span>
-                <div class="card-content">O cliente tem direito a suporte técnico gratuito por 30 dias após a entrega do projeto.</div>
+                <div class="card-content">Suporte técnico gratuito é oferecido por 30 dias após a entrega, cobrindo apenas problemas relacionados à entrega original do serviço.</div>
             </div>
             <div class="card">
+                <i class="fas fa-dollar-sign card-icon"></i>
                 <span class="card-number">14</span>
-                <div class="card-content">Suporte técnico adicional será cobrado separadamente após o período inicial.</div>
+                <div class="card-content">Suporte adicional após 30 dias ou para questões fora do escopo original será cobrado separadamente, com valores previamente acordados.</div>
             </div>
             <div class="card">
+                <i class="fas fa-database card-icon"></i>
                 <span class="card-number">15</span>
-                <div class="card-content">A Code Projects não se responsabiliza por perda de dados após a entrega do projeto.</div>
+                <div class="card-content">A Code Projects não se responsabiliza por perda de dados causada por falhas do cliente em backups ou uso inadequado após a entrega.</div>
             </div>
             <div class="card">
+                <i class="fas fa-check-circle card-icon"></i>
                 <span class="card-number">16</span>
-                <div class="card-content">O cliente deve garantir que todos os dados fornecidos sejam precisos e atualizados.</div>
+                <div class="card-content">O cliente deve garantir a veracidade e atualização de todas as informações fornecidas, isentando a Code Projects de erros decorrentes de dados incorretos.</div>
             </div>
             <div class="card">
+                <i class="fas fa-times-circle card-icon"></i>
                 <span class="card-number">17</span>
-                <div class="card-content">A Code Projects reserva-se o direito de recusar projetos que violem suas políticas internas.</div>
+                <div class="card-content">A Code Projects reserva-se o direito de recusar ou cancelar projetos que violem leis, ética ou suas políticas internas, sem ônus à empresa.</div>
             </div>
             <div class="card">
+                <i class="fas fa-file-alt card-icon"></i>
                 <span class="card-number">18</span>
-                <div class="card-content">O cliente tem direito a um relatório detalhado após a conclusão do projeto.</div>
+                <div class="card-content">O cliente receberá um relatório detalhado ao final do projeto, contendo informações sobre o serviço entregue, conforme o tipo de projeto.</div>
             </div>
             <div class="card">
+                <i class="fas fa-sync-alt card-icon"></i>
                 <span class="card-number">19</span>
-                <div class="card-content">A Code Projects não garante compatibilidade com futuras atualizações do Discord.</div>
+                <div class="card-content">A Code Projects não garante compatibilidade futura com atualizações de plataformas de terceiros (ex.: Discord, navegadores) sem contrato de manutenção.</div>
             </div>
             <div class="card">
+                <i class="fas fa-exclamation-triangle card-icon"></i>
                 <span class="card-number">20</span>
-                <div class="card-content">O cliente deve notificar imediatamente qualquer problema técnico após a entrega.</div>
+                <div class="card-content">Problemas técnicos devem ser reportados em até 7 dias após a entrega, sob pena de serem considerados fora do suporte gratuito.</div>
             </div>
             <div class="card">
+                <i class="fas fa-briefcase card-icon"></i>
                 <span class="card-number">21</span>
-                <div class="card-content">A Code Projects se reserva o direito de usar o projeto como referência em seu portfólio.</div>
+                <div class="card-content">A Code Projects pode usar o projeto como parte de seu portfólio ou material promocional, preservando a confidencialidade de dados sensíveis do cliente.</div>
+            </div>
+            <div class="card">
+                <i class="fas fa-lock card-icon"></i>
+                <span class="card-number">22</span>
+                <div class="card-content">Dados confidenciais fornecidos pelo cliente serão tratados conforme a LGPD e políticas de privacidade da Code Projects.</div>
+            </div>
+            <div class="card">
+                <i class="fas fa-gavel card-icon"></i>
+                <span class="card-number">23</span>
+                <div class="card-content">Qualquer disputa será resolvida sob a jurisdição do foro da comarca da sede da Code Projects, salvo acordo em contrário.</div>
             </div>
         </div>
         <div class="footer">
-            © 2025 Code Projects. Todos os direitos reservados.
+            <i class="fas fa-code"></i> © 2025 Code Projects. Todos os direitos reservados.
         </div>
     </div>
 </body>
